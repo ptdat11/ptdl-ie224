@@ -1,0 +1,23 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "start": "node esbuild.config.js --watch && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "csv": "^6.3.3",
+    "esbuild": "^0.19.2",
+    "esbuild-node-externals": "^1.9.0",
+    "puppeteer": "^21.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "typescript-queue": "^1.0.2"
+  }
+}
